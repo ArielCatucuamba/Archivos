@@ -1,0 +1,7 @@
+{
+  "name": "Archivo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
