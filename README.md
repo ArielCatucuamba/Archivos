@@ -49,8 +49,6 @@ Permite al usuario:
 
 ## 🖼️ Capturas de Pantalla
 
-> Puedes agregar imágenes aquí mostrando cómo funciona la app.  
-> Para ello, colócalas en una carpeta `assets/screenshots` y actualiza los nombres en los enlaces.
 
 ### Interfaz principal
 ![image](https://github.com/user-attachments/assets/4fb387ee-f861-4520-8007-d19968a2f47c)
