@@ -67,6 +67,8 @@ Permite al usuario:
 ### Error al subir (en este caso es porque el archivo ya se encuentra subido)
 ![image](https://github.com/user-attachments/assets/d582dd52-39b1-4df0-9956-f3a2a8f87854)
 
+### Bucket de Supabase
+![image](https://github.com/user-attachments/assets/d44c36da-f621-49ec-8a39-168b4d6e9962)
 
 
 
@@ -85,8 +87,8 @@ Permite al usuario:
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
+git clone https://github.com/ArielCatucuamba/Archivos.git
+cd Archivo
 
 # Instalar dependencias
 npm install
