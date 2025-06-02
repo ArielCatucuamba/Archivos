@@ -1,3 +1,5 @@
+## 👨‍🦰 Autor : Ariel Catucuamba
+
 # 📁 Ionic Angular - Subida de Archivos a Supabase Storage
 
 Este proyecto es una aplicación básica desarrollada con **Ionic Angular** que permite al usuario seleccionar un archivo desde su dispositivo y subirlo a un bucket de **Supabase Storage** llamado `archivos`.
@@ -19,11 +21,9 @@ Permite al usuario:
 - Muestra un formulario simple con:
   - Un campo para seleccionar archivos.
   - Un botón para iniciar la subida.
-- Usa componentes de **Ionic** para ofrecer una apariencia moderna, responsiva y consistente.
-- Muestra mensajes al usuario según el resultado de la acción.
+
 
 ### 🧠 Lógica de subida
-- Cuando el usuario selecciona un archivo, este se guarda en una variable local.
 - Al hacer clic en “Subir”, se llama una función que:
   - Usa el cliente de Supabase configurado con tus credenciales.
   - Intenta subir el archivo al bucket `archivos`.
@@ -45,29 +45,30 @@ Permite al usuario:
 - Muestra mensaje de éxito o error según el resultado.
 - Limpia la selección si todo salió bien.
 
----
 
-## 🧵 Resumen
-
-- El usuario **selecciona** un archivo y luego lo **sube** a Supabase.
-- La lógica está contenida principalmente en la página principal: `HomePage`.
-- La configuración del cliente Supabase está separada para mantener el código limpio y reutilizable.
-
----
 
 ## 🖼️ Capturas de Pantalla
 
 > Puedes agregar imágenes aquí mostrando cómo funciona la app.  
 > Para ello, colócalas en una carpeta `assets/screenshots` y actualiza los nombres en los enlaces.
 
+### Interfaz principal
+![image](https://github.com/user-attachments/assets/4fb387ee-f861-4520-8007-d19968a2f47c)
+
+
 ### Pantalla de selección de archivo
-![Seleccionar archivo](assets/screenshots/seleccionar-archivo.png)
+![image](https://github.com/user-attachments/assets/a3f2a811-ad9e-484c-8894-cf4918ecb056)
+
 
 ### Archivo cargado exitosamente
-![Éxito](assets/screenshots/exito-subida.png)
+![image](https://github.com/user-attachments/assets/9e296827-6df3-4c57-b642-09d6d47662c5)
 
-### Error al subir
-![Error](assets/screenshots/error-subida.png)
+
+### Error al subir (en este caso es porque el archivo ya se encuentra subido)
+![image](https://github.com/user-attachments/assets/d582dd52-39b1-4df0-9956-f3a2a8f87854)
+
+
+
 
 ---
 
