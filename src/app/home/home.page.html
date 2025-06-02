@@ -1,20 +1,26 @@
+<!--Ariel Catucuamba-->
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Subir archivo a Supabase
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content class="ion-padding" [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Blank</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  
+  <form (submit)="uploadFile($event)">
+    <ion-item>
+      <input type="file" (change)="onFileSelected($event)" />
+    </ion-item>
+    <ion-button expand="block" type="submit" [disabled]="!selectedFile">Subir archivo</ion-button>
+  </form>
+  <ion-text color="success" *ngIf="uploadSuccess">¡Archivo subido correctamente!</ion-text>
+  <ion-text color="danger" *ngIf="uploadError">Error al subir el archivo.</ion-text>
 </ion-content>
